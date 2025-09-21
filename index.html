@@ -6,38 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha página pessoal</title>
 
+    <style>
+        body {
+            background-color: rgb(187, 197, 197);
+        }
+
+        table {
+            width: 100%;
+        }
+
+        header h1 {
+            font-family: monospace;
+            font-size: 60px;
+            text-align: center;
+        }
+
+        main img {
+            width: 100%;
+
+        }
+
+        main .sizeImg {
+            width: 40%;
+        }
+
+        main .extremitiesSpace {
+            width: 5%;
+        }
+
+        main .description {
+            width: 40%;
+        }
+
+        main .centerSpace10 {
+            width: 10%;
+        }
+
+        main .description h2 {
+            font-family: monospace;
+            font-size: 22px;
+        }
+
+        main .description p {
+            font-family: monospace;
+            font-size: 22px;
+        }
+
+        main .tableSpace {
+            width: 25%;
+            vertical-align: top;
+        }
+
+        main .centerSpace {
+            width: 7.5%;
+        }
+
+        footer td {
+            width: 33.3%;
+        }
+
+        footer h3 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        footer p {
+            text-align: center;
+        }
+    </style>
+
 </head>
 
-<body style="background-color: rgb(176, 184, 184);">
+<body>
 
     <!--Cabeçalho-->
     <header>
-        <table style="width: 100%;">
+        <table>
             <tr>
-                <td style="width: 10%;"></td>
-                <td style="width: 80%;">
-                    <h1 style="font-family: monospace; font-size: 60px; text-align: center;">JHONATHAN DE OLIVEIRA
-                        MENEGOTTO</h1>
+                <td>
+                    <h1>JHONATHAN DE OLIVEIRA MENEGOTTO</h1>
                 </td>
-                <td style="width: 10%;"></td>
             </tr>
 
         </table>
     </header>
+
+    <hr>
 
     <!--Imagem e descrição-->
     <!--Principal-->
     <main>
         <table>
             <tr>
-                <td style="width: 5%;"></td>
-                <td style="width: 40%; align-items: left;"><img src="imagens/Imagem 01.jpg" width="100%"
-                        alt="imagem jhonathan">
+                <td></td>
+                <td class="sizeImg"><img src="imagens/Imagem 01.jpg" alt="imagem jhonathan">
                 </td>
-                <td style="width: 10%;"></td>
-                <td style="width: 40%; align-items: left;">
-                    <h2 class="jh" style="font-family: monospace; font-size: 22px;">Sobre mim:</h2>
-                    <p style="font-family: monospace; font-size: 22px;">
+                <td class="centerSpace10"></td>
+                <td class="description">
+                    <h2>Sobre mim:</h2>
+                    <p>
                         Meu nome é Jhonathan de Oliveira Menegotto, tenho 29 anos, nascido em Curitiba/PR, e moro em
                         Joinville/SC desde 2014,
                         atualmente trabalho na BMW Group, situada em Araquari/SC, há mais de 8 anos, sendo 4 deles na
@@ -50,30 +117,26 @@
                         profissionalmente através de cursos, workshops,
                         e através de mentorias com profissionais altamente qualificados, aumentando meu conhecimento e
                         evoluindo a cada dia.
-                        Atualmente faço faculdade de <em>Engenharia de Software na Universidade Católica de SC</em>, pois meu
+                        Atualmente faço faculdade de <em>Engenharia de Software na Universidade Católica de SC</em>,
+                        pois meu
                         sonho é
                         poder trabalhar com tecnologia,
                         que é uma das minhas maiores paixões, e através da tecnologia poder transformar o mundo e ajudar
-                        pessoas.</p>
+                        pessoas.
+                    </p>
                 </td>
-                <td style="width: 5%;"></td>
+                <td class="extremitiesSpace"></td>
             </tr>
         </table>
 
 
-        <table>
-            <tr style="height: 30px;"></tr>
-        </table>
         <hr>
-        <table>
-            <tr style="height: 30px;"></tr>
-        </table>
 
         <!--Certificados e competências-->
-        <table style="width: 100%;">
+        <table>
             <tr>
-                <td style="width: 5%;"></td>
-                <td style="width: 25%;">
+                <td class="extremitiesSpace"></td>
+                <td class="tableSpace">
                     <h2>Certificados: </h2>
                     <p><strong>Desenvolvimento de Liderança.</strong> <br>
                         UniSociesc Centro Universitário.</p>
@@ -82,8 +145,8 @@
                     <p><strong>Programação de soluções computacionais.</strong> <br>
                         UniSociesc centro Universitário.</p>
                 </td>
-                <td style="width: 7.5%;"></td>
-                <td style="width: 25%;">
+                <td class="centerSpace"></td>
+                <td class="tableSpace">
                     <h2>Lista de Competências: </h2>
                     <ul>
                         <li>Inteligência emocional.</li>
@@ -96,8 +159,8 @@
                         <li>Microsoft Office.</li>
                     </ul>
                 </td>
-                <td style="width: 7.5%;"></td>
-                <td style="vertical-align: top; width: 25%;">
+                <td class="centerSpace"></td>
+                <td class="tableSpace">
                     <h2>Formação Acadêmica: </h2>
                     <p><strong>Católica de Santa Catarina - Centro Universitário.</strong> <br>
                         Bacharelado em Engenharia de Software. <br>
@@ -105,37 +168,25 @@
                     </p>
 
                 </td>
-                <td style="width: 5%;"></td>
+                <td class="extremitiesEspace"></td>
             </tr>
         </table>
     </main>
-   
+
     <hr>
 
     <!--Rodapé-->
     <footer>
-        <table style="width: 100%;">
+        <table>
             <tr>
-                <td style="width: 33.3%;"></td>
-                <td style="width: 33.3%;">
-                    <h3 style="font-size: 30px; text-align: center;">Contato:</h3>
-                </td>
-                <td style="width: 33.3%;"></td>
-            </tr>
-        </table>
-
-
-        <table style="width: 100%;">
-            <tr>
-                <td style="width: 33.3%;"></td>
-                <td style="width: 33.3%;">
-
-                    <p style="text-align: center;">Email Pessoal: jhonathanmenegotto722@gmail.com <br>
+                <td></td>
+                <td>
+                    <h3>Contato:</h3>
+                    <p>Email Pessoal: jhonathanmenegotto722@gmail.com <br>
                         Email Acadêmico: jhonathan.menegotto@catolicasc.edu.br <br>
                         Telefone Celular: (47) 9 8895-2622</p>
-
                 </td>
-                <td style="width: 33.3%;"></td>
+                <td></td>
             </tr>
         </table>
     </footer>
