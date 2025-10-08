@@ -12,20 +12,27 @@
 
  main .conteiner-pai .principal {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 150px;
+    padding: 2%;
  }
 
  main .conteudo {
     flex: 1;
-    font-size: 35px;
+    font-size: 30px;
 
  }
 
+ .imagem{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
  img {
-    width: 100%;
+    width: 75%;
  }
 
  main .secundario {
@@ -40,8 +47,16 @@
  footer h3 {
     font-size: 30px;
     text-align: center;
+    margin: 0;
  }
 
  footer p {
     text-align: center;
+ }
+
+ footer {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
  }
