@@ -1,66 +1,47 @@
  body {
-     background-color: rgb(187, 197, 197);
+    background-color: rgb(187, 197, 197);
  }
 
- table {
-     width: 100%;
- }
-
- header h1 {
-     font-family: monospace;
-     font-size: 60px;
-     text-align: center;
- }
-
- main img {
-     width: 100%;
+ header {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 30px;
 
  }
 
- main .sizeImg {
-     width: 40%;
+ main .conteiner-pai .principal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
  }
 
- main .extremitiesSpace {
-     width: 5%;
+ main .conteudo {
+    flex: 1;
+    font-size: 35px;
+
  }
 
- main .description {
-     width: 40%;
+ img {
+    width: 100%;
  }
 
- main .centerSpace10 {
-     width: 10%;
- }
+ main .secundario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
 
- main .description h2 {
-     font-family: monospace;
-     font-size: 22px;
- }
-
- main .description p {
-     font-family: monospace;
-     font-size: 22px;
- }
-
- main .tableSpace {
-     width: 25%;
-     vertical-align: top;
- }
-
- main .centerSpace {
-     width: 7.5%;
- }
-
- footer td {
-     width: 33.3%;
  }
 
  footer h3 {
-     font-size: 30px;
-     text-align: center;
+    font-size: 30px;
+    text-align: center;
  }
 
  footer p {
-     text-align: center;
+    text-align: center;
  }
